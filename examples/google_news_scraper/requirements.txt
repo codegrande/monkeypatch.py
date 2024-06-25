@@ -7,3 +7,4 @@ requests-html
 selenium
 webdriver-manager
 boto3
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability

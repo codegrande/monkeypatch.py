@@ -4,3 +4,5 @@ numpy~=1.24.4
 python-dotenv==1.0.0
 bitarray==2.8.2
 pydantic==2.4.2
+aiohttp>=3.13.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
